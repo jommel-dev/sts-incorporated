@@ -42,7 +42,7 @@ In Render dashboard:
 4. Add all production env vars from step 1.1.
 5. Deploy.
 
-Backend will be available at your Render URL, for example `https://cbis-backend.onrender.com`.
+Backend will be available at your Render URL, for example `https://sts-incorporated-cdis-backend-6upj7.ondigitalocean.app`.
 
 ## 2. Frontend Deployment (Vercel)
 
@@ -54,7 +54,7 @@ Backend will be available at your Render URL, for example `https://cbis-backend.
 In Vercel Project Settings -> Environment Variables:
 
 - `NG_APP_API_BASE_URL` = your backend public URL
-  - Example: `https://cbis-backend.onrender.com`
+  - Example: `https://sts-incorporated-cdis-backend-6upj7.ondigitalocean.app`
 
 Redeploy after setting env vars.
 
