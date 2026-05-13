@@ -17,7 +17,7 @@ const nodeEnv = String(appEnv?.['NODE_ENV'] ?? '').trim().toLowerCase();
 const hostName = String(globalThis.location?.hostname ?? '').trim().toLowerCase();
 const isLocalHost = hostName === 'localhost' || hostName === '127.0.0.1';
 const isProductionBuild = nodeEnv === 'production' || !isLocalHost;
-const fallbackProductionApiBaseUrl = 'https://cbis-backend.onrender.com';
+const fallbackProductionApiBaseUrl = 'https://sts-incorporated-cdis-backend-6upj7.ondigitalocean.app/';
 
 if (!configuredApiBaseUrl && isProductionBuild) {
   console.warn(
